@@ -2,20 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Codex AI in your hands</title>
-    <Link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="app">
+      <h1>ChatBot</h1>
       <div id="chat_container"></div>
-
       <form>
-        <Textarea name="prompt" rows="1" cols="1" placeholder="Ask your AI ..."></Textarea>
-        <button type="submit"><img src="assets/send.svg" /> </button>
+        <textarea name="prompt" rows="1" cols="1" placeholder="Ask anything to me! what you want to know pls tell me...."></textarea>
+        <button type="submit">
+          <img src="assets/send.svg" alt="send btn" />
+        </button>
       </form>
-
     </div>
     <script type="module" src="script.js"></script>
   </body>
