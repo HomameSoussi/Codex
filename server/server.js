@@ -33,7 +33,7 @@ app.post('/', async (req, res) => {
       temperature: 0, 
       max_tokens: 3000, 
       top_p: 1, 
-      frequency_penalty: 0.6, 
+      frequency_penalty: 1, 
       presence_penalty: 0, 
     });
 
